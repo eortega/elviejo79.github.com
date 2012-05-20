@@ -222,7 +222,7 @@ jQuery(document).ready(function() {
       <nav id="main-nav">
         <ul>
           <li><a class="menu" href="#home">Acerca de</a></li>
-          <li><a class="menu" href="#about">Plan de Estudios</a></li>
+          <li><a class="menu" href="#planEstudios">Plan de Estudios</a></li>
           <li><a class="menu" href="#services">Mentores</a></li>
           <li><a class="menu" href="#works">Valores</a></li>
           <li><a class="menu" href="#gallery">Gallery</a></li>
@@ -290,22 +290,77 @@ jQuery(document).ready(function() {
         </div>
       </div>
       <!-- END: .content -->
-      <div id="about" class="content">
+      <div id="planEstudios" class="content">
         <div class="page_title">
-          <h2><span>About</span></h2>
-        </div>
-        <h3>About Us - Get contact with our staff &amp; learn more the details of the company background.</h3>
-        <div class="about">
-        	<img src="images/about.jpg" alt="About Image" />
-            <p>Quisque eget ligula nulla, malesuada accumsan tellus. Quisque tincidunt, est ac interdum tempor, erat est molestie lacus, sed convallis lorem elit vitae eros. Maecenas fermentum tincidunt eros, eu convallis turpis dictum in. Proin vulputate ultrices facilisis. Suspendisse lacus ligula, vulputate quis posuere vitae, mattis ac enim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p><br>
-            <blockquote>
+          <h2><span>Plan de Estudios</span></h2>
+        </div>                     
+        <div class="about">   
+	<!-- 
+        	<img src="images/about.jpg" alt="About Image" />    
+-->         
+                     
+<h3>El Programa está hecho para ti</h3>
+<p> Jag Academy está enfocada en crear gente con habilidades técnicas que le permitan incorporarse al sector de desarrollo de software sin ningún problema, para eso hemos diseñado un Plan de Estudios que te servirá para adquirir los conocimientos y habilidades que el mundo demanda.</p> 
+<br>
+<div id="tab">
+                  <ul class="nav">
+                      <li class="nav-one"><a href="#perfilIngreso" class="current">Perfil de Ingreso</a></li>
+                      <li class="nav-two"><a href="#perfilEgreso">Perfil de Egreso</a></li>
+                      <li class="nav-three"><a href="#competencias">Competencias Adquiridas</a></li>
+                      <li class="nav-four last"><a href="#descargaTemario">Descarga el temario</a></li>
+                  </ul>
+                  <div class="list-wrap">
+
+                      <ul id="perfilIngreso" >
+                        <li>Recién egresados de la carrera de ingeniería en sistema, licenciado en informática o carrera afin.</li>
+						<li>Técnico Superior Universitario en Informática (con buen nivel de inglés).</li>
+						<li>Personas con máximo un año de experiencia en ingeniería de software.</li>   
+						<li>Egresados buscando trabajo en el área de ingeniería de software.</li>   
+						<li>Al menos un 70% de inglés en lectura.
+                      </ul>
+                       
+                       <ul id="perfilEgreso" class="hide">
+                        <li>Capaz de crear una microempresa sobre temas relacionados con ingeniería de software.</li>
+						<li>Capaz de ingresar a las empresas de ingeniería de software como un nivel junior.</li>   
+						<li>Preparado para ingresar a empresas grandes de outsourcing de México.</li>
+                       </ul>
+                       
+                       <div id="competencias" class="hide">
+                            <ul>
+							<li>Uso especializado en tecnología PHP, JAVA o .NET en la práctica</li>
+							<li>De 5 a 12 libros leídos de ingeniería de software en inglés</li>
+							<li>Asistencia a 12 conferencias con expertos en ingeniería de software</li>
+							<li>Asistencia a 36 pláticas de temas expuestos de ingeniería de software por el coloquio de software</li>
+							<li>De 1 a 3 proyectos reales desarrollados</li>
+							<li>Hábitos de trabajo enfocados en la creación de productos</li>
+							<li>3 clases de ingeniería de software en 3 niveles de profundidad</li>
+							<li>Prácticas de ingeniería de software adquirido por la guía de un mentor</li>
+							<li>Al terminar el programa el egresado podrá certificarse en la tecnología elegida</li>
+							<li>Al menos 2 pláticas frente a colegas de la industria del software impartidas por el propio alumno</li>
+							<li>450 puntos en el TOEFL</li>
+						</ul>
+                       </div>
+                       
+                       <ul id="descargaTemario" class="hide">
+                                                        <div class="third">
+                              <img src="images/docto.png" alt="" />
+                              <span><a href="documents/Plan de Estudios JAG Academy 0.1.pdf" target="_blank">Programa de Jag Academy.</a></span><br>
+                              <small>Agosto, 2012</small>
+                          </div>
+                       </ul>
+                  </div>
+              </div>
+      
+           <!-- <blockquote>
             	<p>Quisque eget ligula nulla, malesuada accumsan tellus. Quisque tincidunt, est ac interdum tempor, erat est molestie lacus, sed convallis lorem elit vitae eros. Maecenas fermentum tincidunt eros, eu convallis turpis dictum in. Proin vulputate ultrices facilisis.</p>
             </blockquote>
-            <div class="video-container">
+                      
+<div class="video-container">
             <iframe src="http://player.vimeo.com/video/18439821?title=0&byline=0&portrait=0" width="800" height="450" frameborder="0"></iframe>
-            </div>
-            <h4>Get contact with our team!</h4>
-            <div class="one-third last">
+            </div> 
+-->  
+            <h4><a href="#contact">Si deseas atención personalizada comunícate con nosotros!</a></h4>
+            <!--<div class="one-third last">
             	<img src="images/partner-1.jpg" alt="Louie Jie Mahusay" />
                 <h3>Louie Jie Mahusay<br><span>CEO &amp; Creative Director</span></h3>
                 <p>Quisque eget ligula nulla, malesuada accumsan tellus. Quisque tincidunt, est ac interdum tempor, erat est molestie lacus</p>
@@ -319,10 +374,12 @@ jQuery(document).ready(function() {
             	<img src="images/partner-3.jpg" alt="Louie Jie Mahusay" />
                 <h3>James Smith<br><span>Web Programmer</span></h3>
                 <p>Quisque eget ligula nulla, malesuada accumsan tellus. Quisque tincidunt, est ac interdum tempor, erat est molestie lacus</p>
-            </div>
+            </div> 
+-->
         </div>
       </div>
-      <!-- END: .content -->
+      <!-- END: .content -->  
+
       <div id="services" class="content">
         <div class="page_title">
           <h2><span>Services</span></h2>
